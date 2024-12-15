@@ -3,10 +3,10 @@ import { FaMapLocationDot } from "react-icons/fa6";
 
 const MenuHeader = () => {
   return (
-    <div className="container mx-auto px-5 p-5">
+    <div className="container mx-auto px-5 p-5 max-md:p-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div className="flex justify-center items-center oswald-call  ">
-          <div className="mx-5 text-center">
+          <div className="mx-5 text-center max-md:hidden ">
             <h1 className="flex md:w-[500px] w-full  flex-wrap font-bold text-4xl text-[#202124] uppercase">
               Welcome. How would you like to order today?
             </h1>
