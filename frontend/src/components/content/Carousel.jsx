@@ -47,7 +47,7 @@ const MuiCarousel = () => {
   return (
     <Box
       sx={{ minWidth: "329px", maxWidth: "auto", mx: "auto", mt: 0 }}
-      className="rounded-none"
+      className="rounded-none mb-7 "
     >
       <Slider {...settings}>
         {slides.map((slide) => (

@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Nav = () => {
   return (
-    <div className="oswald-call container mx-auto px-3 md:px-6 py-1 md:my-4 border-b-2">
+    <div className="oswald-call container mx-auto px-3 md:px-6 py-2 md:py-4  md:border-b-2  bg-white shadow-md">
       <div className="flex justify-between items-center">
         <div className="flex gap-3 justify-start items-center">
           <RxHamburgerMenu className="text-3xl  max-md:block md:hidden" />
@@ -16,7 +16,7 @@ const Nav = () => {
               alt="Logo Desk Top Header"
             />
           </div>
-          <ul className="font-bold flex justify-center text-xl items-center gap-5 px-4 mx-3 cursor-pointer max-md:hidden">
+          <ul className="font-bold flex justify-center text-xl items-center gap-5 px-4 mx-3 cursor-pointer max-md:hidden text-[#202124]">
             <li>OUR MENU</li>
             <li>DEALS</li>
             <li>FIND A KFC</li>
