@@ -3,7 +3,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 
 const MenuHeader = () => {
   return (
-    <div className="container mx-auto px-5 p-5 max-md:p-0">
+    <div className="container mx-auto px-5 p-4 max-md:p-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div className="flex justify-center items-center oswald-call  ">
           <div className="mx-5 text-center max-md:hidden ">
@@ -17,8 +17,8 @@ const MenuHeader = () => {
         </div>
         <div className="my-3 mx-5">
           <div>
-            <div className="flex gap-3 oswald-call text-lg ">
-              <button className="flex-1 font-bold bg-[#E4002B] py-1 px-6 text-white rounded-full">
+            <div className="flex gap-3 oswald-call text-lg max-md:text-sm ">
+              <button className="flex-1 font-bold bg-[#E4002B] py-0 md:py-1 px-6 text-white rounded-full">
                 DELIVERY
               </button>
               <button className="flex-1 font-bold shadow-lg text-black bg-[#FFFFFF] py-2 px-6 rounded-full">
@@ -38,7 +38,7 @@ const MenuHeader = () => {
                 />
               </div>
               <div>
-                <h1 className="text-[#E4002B] flex justify-start items-center gap-2 text-lg font-semibold">
+                <h1 className="text-[#E4002B] flex justify-start items-center gap-2 text-lg max-md:text-sm font-semibold">
                   <span>
                     <FaMapLocationDot />
                   </span>
