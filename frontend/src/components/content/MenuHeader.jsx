@@ -7,9 +7,12 @@ const MenuHeader = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div className="flex justify-center items-center oswald-call  ">
           <div className="mx-5 text-center">
-            <h1 className="flex md:w-[500px] w-full  flex-wrap font-bold text-4xl text-[#202124]">
+            <h1 className="flex md:w-[500px] w-full  flex-wrap font-bold text-4xl text-[#202124] uppercase">
               Welcome. How would you like to order today?
             </h1>
+            <p className="text-gray-500 font-sans font-medium my-2">
+              Delivery & Pick up now available
+            </p>
           </div>
         </div>
         <div className="my-3 mx-5">
@@ -34,7 +37,7 @@ const MenuHeader = () => {
                 />
               </div>
               <div>
-                <h1 className="text-[#E4002B]">
+                <h1 className="text-[#E4002B] flex justify-start items-center gap-2 text-lg font-semibold">
                   <span>
                     <FaMapLocationDot />
                   </span>
