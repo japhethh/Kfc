@@ -25,7 +25,7 @@ const MenuHeader = () => {
                 PICKUP
               </button>
             </div>
-            <div className="flex flex-col gap-2 mt-3">
+            <div className="flex flex-col gap-2 mt-3 ">
               <h1>Enter your addreess</h1>
               <div className="flex gap-2 mb-3">
                 <button className="py-3 px-5 rounded-md bg-[#E4002B] text-white w-auto">
@@ -33,6 +33,7 @@ const MenuHeader = () => {
                 </button>
                 <input
                   className="rounded-sm w-full py-1 px-3 border border-gray-500"
+                  placeholder="Enter your location"
                   type="text"
                 />
               </div>

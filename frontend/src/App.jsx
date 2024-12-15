@@ -1,3 +1,4 @@
+import MuiCarousel from "./components/content/Carousel";
 import MenuHeader from "./components/content/MenuHeader";
 import Nav from "./components/Nav";
 
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Nav />
       <MenuHeader />
+      <MuiCarousel />
     </div>
   );
 };
