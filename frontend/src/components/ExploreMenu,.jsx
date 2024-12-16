@@ -1,37 +1,34 @@
+import { images } from "../assets/index";
+
 const ExploreMenu = () => {
-  const example = 0;
   const list = [
     {
       title: "WHAT'S NEW",
-      image: example,
+      image: images.menu1,
     },
     {
       title: "FULLY LOADED BOX",
-      image: example,
+      image: images.menu2,
     },
     {
       title: "FAVOURITES",
-      image: example,
+      image: images.menu3,
     },
     {
       title: "MEALS FOR 2",
-      image: example,
+      image: images.menu4,
     },
     {
       title: "MEALS FOR 2",
-      image: example,
+      image: images.menu5,
     },
     {
       title: "MEALS FOR 2",
-      image: example,
-    },
-    {
-      title: "MEALS FOR 2",
-      image: example,
+      image: images.menu6,
     },
   ];
   return (
-    <div className=" oswald-call container mx-auto px-5">
+    <div className=" oswald-call container mx-auto px-5 py-5">
       <h1 className="md:text-4xl text-2xl text-[#202124] uppercase font-bold py-4">
         explore our menu
       </h1>
@@ -40,11 +37,8 @@ const ExploreMenu = () => {
         {list.map((item, index) => (
           <div key={index}>
             <div className="flex flex-col">
-              <img
-                src="https://cdn.tictuk.com/04d917c0-7bcd-6ced-acad-3e4db2bcbfd5/menus/BMEAL2.jpg"
-                alt=""
-              />
-              <div className="oswal-call">
+              <img className="shadow-xl" src={item.image} alt="" />
+              <div className="oswal-call pt-2">
                 <h1 className="text-center font-bold text-[#202124]">
                   {item.title}
                 </h1>

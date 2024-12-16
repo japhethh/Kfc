@@ -3,7 +3,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 
 const MenuHeader = () => {
   return (
-    <div className="container mx-auto px-5 p-4 max-md:p-0 ">
+    <div className="container mx-auto px-5 p-4 max-md:p-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div className="flex justify-center items-center oswald-call  ">
           <div className="mx-5 text-center max-md:hidden ">
