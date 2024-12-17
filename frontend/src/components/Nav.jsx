@@ -22,7 +22,7 @@ const Nav = () => {
   return (
     <div className="oswald-call container mx-auto px-10 md:px-6 py-2 md:py-4  md:border-b-2  bg-white shadow-md">
       <div className="flex justify-between items-center">
-        <Link to="/home">
+        <Link to="/">
           <div className="flex gap-3 justify-start items-center">
             <RxHamburgerMenu
               className="text-3xl  max-md:block md:hidden"

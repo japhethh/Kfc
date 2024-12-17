@@ -12,7 +12,7 @@ const App = () => {
         <MenuHeader />
       </div>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/ourMenu" element={<ScrollTabs />} />
       </Routes>
       <Footer />
