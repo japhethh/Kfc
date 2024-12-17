@@ -13,7 +13,7 @@ import Button from "@mui/material/Button";
 const Footer = () => {
   return (
     <div className="bg-[#202124] p-5">
-      <div className="grid grid-cols-5 gap-4">
+      <div className="grid grid-cols-5 gap-4 max-md:hidden">
         <div>
           <div className="flex justify-center ">
             <img
@@ -66,9 +66,51 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <div className="max-md:block hidden">
+        <Accordion
+          sx={{
+            backgroundColor: "#202124",
+            color: "white",
+            borderTop: "1px solid #ccc",
+            borderBottom: "1px solid #ccc",
+          }}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1-content"
+            id="panel1-header"
+          >
+            KFC
+          </AccordionSummary>
+          <AccordionDetails>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </AccordionDetails>
+        </Accordion>
 
+        <Accordion
+          sx={{
+            backgroundColor: "#202124",
+            color: "white",
+            borderTop: "1px solid #ccc",
+            borderBottom: "1px solid #ccc",
+          }}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            CONTACT KFC
+          </AccordionSummary>
+          <AccordionDetails>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </AccordionDetails>
+        </Accordion>
+      </div>
       <div className="h-[100px] w-full flex justify-center items-center">
-        <div className="grid grid-cols-3  w-full">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-4  w-full">
           <div></div>
           <div>
             <h1 className="text-center text-white/80 font-semibold ">
@@ -92,51 +134,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </div>
-      <div>
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1-content"
-            id="panel1-header"
-          >
-            Accordion 1
-          </AccordionSummary>
-          <AccordionDetails>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </AccordionDetails>
-        </Accordion>
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2-content"
-            id="panel2-header"
-          >
-            Accordion 2
-          </AccordionSummary>
-          <AccordionDetails>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </AccordionDetails>
-        </Accordion>
-        <Accordion defaultExpanded>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel3-content"
-            id="panel3-header"
-          >
-            Accordion Actions
-          </AccordionSummary>
-          <AccordionDetails>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </AccordionDetails>
-          <AccordionActions>
-            <Button>Cancel</Button>
-            <Button>Agree</Button>
-          </AccordionActions>
-        </Accordion>
       </div>
     </div>
   );

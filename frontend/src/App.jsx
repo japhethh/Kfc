@@ -1,9 +1,8 @@
-import MuiCarousel from "./components/content/Carousel";
 import MenuHeader from "./components/content/MenuHeader";
-import ExploreMenu from "./components/ExploreMenu,";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
-
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 const App = () => {
   return (
     <div>
@@ -11,8 +10,9 @@ const App = () => {
         <Nav />
         <MenuHeader />
       </div>
-      <MuiCarousel />
-      <ExploreMenu />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+      </Routes>
       <Footer />
     </div>
   );

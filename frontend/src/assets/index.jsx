@@ -11,6 +11,7 @@ import menu4 from "./menu4.jpg";
 import menu5 from "./menu5.jpg";
 import menu6 from "./menu6.png";
 import logoDesktopFooter from "./logoDesktopFooter.svg";
+import logoDesktopHeader from "./logoDesktopHeader.svg";
 
 export const images = {
   slide1,
@@ -20,6 +21,7 @@ export const images = {
   mobileSlide2,
   mobileSlide3,
   logoDesktopFooter,
+  logoDesktopHeader,
   menu1,
   menu2,
   menu3,
