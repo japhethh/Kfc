@@ -20,7 +20,7 @@ const Nav = () => {
   const [signUpModal, setSignUpModal] = useState(false);
 
   return (
-    <div className="oswald-call container mx-auto px-3 md:px-6 py-2 md:py-4  md:border-b-2  bg-white shadow-md">
+    <div className="oswald-call container mx-auto px-10 md:px-6 py-2 md:py-4  md:border-b-2  bg-white shadow-md">
       <div className="flex justify-between items-center">
         <Link to="/home">
           <div className="flex gap-3 justify-start items-center">
@@ -47,7 +47,7 @@ const Nav = () => {
         </Link>
         <div>
           <div
-            className="flex justify-center items-center gap-2 font-serif text-gray-400"
+            className="flex justify-center items-center gap-2 font-serif text-gray-400 cursor-pointer"
             onClick={() => setSignUpModal(true)}
           >
             <CgProfile className="text-4xl text-gray-400" />

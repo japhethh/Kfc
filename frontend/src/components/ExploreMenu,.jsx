@@ -28,7 +28,7 @@ const ExploreMenu = () => {
     },
   ];
   return (
-    <div className=" oswald-call container mx-auto px-5 py-5">
+    <div className=" oswald-call container mx-auto px-10 py-5">
       <h1 className="md:text-4xl text-2xl text-[#202124] uppercase font-bold py-4">
         explore our menu
       </h1>

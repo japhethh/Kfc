@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import ScrollTabs from "./components/OurMenu";
 const App = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const App = () => {
       </div>
       <Routes>
         <Route path="/home" element={<Home />} />
+        <Route path="/ourMenu" element={<ScrollTabs />} />
       </Routes>
       <Footer />
     </div>
