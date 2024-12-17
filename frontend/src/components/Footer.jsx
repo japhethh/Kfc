@@ -13,7 +13,7 @@ import Button from "@mui/material/Button";
 const Footer = () => {
   return (
     <div className="bg-[#202124] p-5">
-      <div className="grid grid-cols-5 gap-4 max-md:hidden">
+      <div className="grid grid-cols-5 md:gap-4 gap-4">
         <div>
           <div className="flex justify-center ">
             <img
@@ -27,7 +27,7 @@ const Footer = () => {
           <div>
             <h1 className="font-bold text-sm text-white">KFC</h1>
           </div>
-          <ul className="flex flex-col gap-4 text-white/80 font-semibold text-sm">
+          <ul className="flex flex-col gap-2 text-white/80 font-semibold text-sm">
             <li>Online Exclusives</li>
             <li>Who We Are</li>
             <li>Careers</li>
@@ -38,16 +38,16 @@ const Footer = () => {
           <div>
             <h1 className="font-bold text-sm text-white">Contact KFC</h1>
           </div>
-          <ul className="flex flex-col gap-4 text-white/80 font-semibold text-sm">
+          <ul className="flex flex-col gap-2 text-white/80 font-semibold text-sm">
             <li>Contact Us</li>
             <li>Find a KFC</li>
           </ul>
         </div>
-        <div>
+        <div className="hidden">
           <div>
             <h1 className="font-bold text-sm text-white">Policies</h1>
           </div>
-          <ul className="flex flex-col gap-4 text-white/80 font-semibold text-sm">
+          <ul className="flex flex-col gap-2 text-white/80 font-semibold text-sm">
             <li>Disclaimer</li>
             <li>Terms and Conditions</li>
             <li>Privary Policy</li>
@@ -58,7 +58,7 @@ const Footer = () => {
           <div>
             <h1 className="font-bold text-sm text-white">KFC</h1>
           </div>
-          <ul className="flex flex-col gap-4 text-white/80 font-semibold text-sm">
+          <ul className="flex flex-col gap-2 text-white/80 font-semibold text-sm">
             <li>Online Exclusives</li>
             <li>Who We Are</li>
             <li>Careers</li>
@@ -66,7 +66,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="max-md:block hidden">
+      <div className="max-md:hidden hidden">
         <Accordion
           sx={{
             backgroundColor: "#202124",

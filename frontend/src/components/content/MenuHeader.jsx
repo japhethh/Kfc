@@ -38,7 +38,7 @@ const MenuHeader = () => {
                 />
               </div>
               <div>
-                <h1 className="text-[#E4002B] flex justify-start items-center gap-2 text-lg max-md:text-sm font-semibold">
+                <h1 className="text-[#E4002B] flex justify-start items-center gap-2 text-md max-md:text-sm font-normal">
                   <span>
                     <FaMapLocationDot />
                   </span>
