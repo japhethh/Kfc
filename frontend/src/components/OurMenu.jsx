@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Tabs, Tab, Box, Typography } from "@mui/material";
+import { Tabs, Tab, Box } from "@mui/material";
 import { images } from "../assets/index";
 import { LiaCartArrowDownSolid } from "react-icons/lia";
 
@@ -465,7 +465,7 @@ const ScrollTabs = () => {
     <div className="">
       <Box>
         {/* Tabs Component */}
-        <div className="sticky max-md:top-[248px] md:top-[303px] left-0 z-40 bg-white border-2 border-r-0 border-l-0  border-gray-300 shadow-md text-[#202124]">
+        <div className="sticky max-md:top-[248px] md:top-[302px] left-0 z-40 bg-white border-2 border-r-0 border-l-0  border-gray-300 shadow-md text-[#202124]">
           <Tabs
             value={activeTab}
             onChange={handleTabChange}
