@@ -1,6 +1,7 @@
 import { images } from "../assets/index";
-
+import { useNavigate } from "react-router-dom";
 const ExploreMenu = () => {
+  const navigate = useNavigate();
   const list = [
     {
       title: "WHAT'S NEW",
@@ -36,7 +37,7 @@ const ExploreMenu = () => {
       <div className="grid md:grid-cols-4 grid-cols-2 gap-5">
         {list.map((item, index) => (
           <div key={index}>
-            <div className="flex flex-col">
+            <div className="flex flex-col" onClick={() => navigate("/ourmenu")}>
               <img className="shadow-xl" src={item.image} alt="" />
               <div className="oswal-call pt-2">
                 <h1 className="text-center font-bold text-[#202124]">
